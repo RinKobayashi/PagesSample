@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="澤野弘之">
+        <meta name="description" content="澤野弘之情報サイトです。">
+        <title>澤野弘之情報サイト</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <div class="sidebar" id="sidebar">
+            <button class="menuBtn" id="menuBtn">≡</button>
+            <h2>MENU</h2>
+            <a href="index.html"><span class="label">HOME</span></a>
+            <a href="lifeCareer.html"><span class="label">LIFE & CAREER</span></a>
+            <a href="style.html"><span class="label">STYLE</span></a>
+            <a href="movies.html"><span class="label">MOVIES</span></a>
+        </div>
+
+        <header>
+            <div class="header-wrapper">
+                <div class="mainvisual"></div>
+            </div>
+        </header>
+        <main>
+            <section class="intro">
+                <div class="card">
+                    <img src="images/logo.jpg" alt="logo">
+                    <div class="text">
+                        <div class="name">
+                            <small class="kata">
+                                サワノ　　ヒロユキ
+                            </small>
+                            <h2>澤野弘之</h2>
+                        </div>
+                        <p>
+                            1980年生まれ、東京都出身の作曲家・編曲家。テレビドラマ、アニメ、映画などの音楽を手掛け、力強いオーケストレーションとエレクトロニックサウンドを融合させた独自のスタイルで知られる。代表作に『進撃の巨人』『ガンダムUC』『甲鉄城のカバネリ』などがあり、自身のプロジェクト「SawanoHiroyuki[nZk]」でも活動中。
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="works">
+                <div class="card">
+                    <h2>代表作</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work01.jpg" alt="作品1">
+                            <p>
+                                アニメ『進撃の巨人』シリーズの音楽を手掛けたことで、その名をさらに広めました。彼の楽曲は、オーケストラとロック、エレクトロニカを融合させ、壮大で緊張感あふれる世界観を描き出しています。<br><br>
+                                代表曲である「ətˈæk 0N tάɪtn」は、力強いリズムとコーラスによって巨人との戦闘の迫力を表現し、一方で「Call your name」は切なさと希望を織り交ぜたメロディで物語の深い感情を伝えます。澤野の音楽は、作品の世界観に欠かせない存在となり、視聴者に強烈な印象と感動を与え続けています。
+                            </p>
+                        </div>
+                        <div class="work">
+                            <p>
+                                『RX-0』は、作曲家・澤野弘之が手掛けた『機動戦士ガンダムUC』のオリジナル・サウンドトラックのひとつであり、作品世界を象徴する重要なアルバムです。本作には、ユニコーンガンダムの名を冠したタイトル通り、壮大で緊張感に満ちた楽曲から、叙情的で心を揺さぶる旋律まで、多彩な楽曲が収録されています。<br><br>
+                                特に「UNICORN」や「MOBILE SUIT」などの楽曲は、重厚なオーケストラと力強いリズムが融合し、戦闘シーンの迫力を最大限に引き出します。一方で「INFERNAL AFFAIRS」や「ON YOUR MARK」は、物語のドラマ性を際立たせ、登場人物たちの心情を深く描き出しています。<br><br>
+                                澤野弘之ならではの壮大なスケール感と独創的なサウンドデザインにより、『RX-0』はガンダムUCの世界観を音楽面から支える、ファン必聴のアルバムとなっています。
+                            </p>
+                            <img src="images/work02.jpg" alt="作品2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="copyright">
+                <small>Copyright 2025 SAWANOHIROYUKI</small>
+            </div>
+        </footer>
+
+        <script>
+            const sidebar = document.getElementById("sidebar");
+            const menuBtn = document.getElementById("menuBtn");
+            menuBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("collapsed");
+            });
+        </script>
+        
+    </body>
+</html>
