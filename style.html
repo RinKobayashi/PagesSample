@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="澤野弘之">
+        <meta name="description" content="澤野弘之情報サイトです。">
+        <title>澤野弘之情報サイト</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <div class="sidebar" id="sidebar">
+            <button class="menuBtn" id="menuBtn">≡</button>
+            <h2>MENU</h2>
+            <a href="index.html"><span class="label">HOME</span></a>
+            <a href="lifeCareer.html"><span class="label">LIFE & CAREER</span></a>
+            <a href="style.html"><span class="label">STYLE</span></a>
+            <a href="movies.html"><span class="label">MOVIES</span></a>
+        </div>
+
+        <header>
+            <div class="header-wrapper">
+                <div class="mainvisual-third"></div>
+            </div>
+        </header>
+        <main>
+            <section class="styles">
+                <div class="card">
+                    <h1>STYLE</h1>
+                    <div class="style-list">
+                        <div class="style">
+                            <h2>音楽スタイルの特徴</h2>
+                            <p>
+                                澤野弘之の音楽は、オーケストラを基盤にしながら、ロック、エレクトロニカ、民族音楽的要素などを巧みに融合させる点に特徴がある。壮大でドラマチックなサウンドは「燃える劇伴」と評され、戦闘や緊張感あふれる場面を一層盛り上げる力を持つ。また、静かで叙情的なピアノ曲やバラードも得意とし、幅広い表現力を発揮している。
+                            </p>
+                        </div>
+                        <div class="style">
+                            <h2>曲名のユニークさ</h2>
+                            <p>
+                                劇伴の楽曲には一見意味不明なアルファベットや記号を組み合わせたタイトルが多い。これは聴き手が曲名に縛られず自由にイメージを膨らませられるように、また作曲過程での遊び心を反映させる意図がある。ファンの間では「暗号のようだ」と話題になることも多い。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="copyright">
+                <small>Copyright 2025 SAWANOHIROYUKI</small>
+            </div>
+        </footer>
+
+        <script>
+            const sidebar = document.getElementById("sidebar");
+            const menuBtn = document.getElementById("menuBtn");
+            menuBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("collapsed");
+            });
+        </script>
+        
+    </body>
+</html>
